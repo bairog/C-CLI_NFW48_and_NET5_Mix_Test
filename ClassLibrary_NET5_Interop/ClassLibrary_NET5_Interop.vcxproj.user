@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>E:\C++CLI_NFW48_and_NET5_Mix_Test\BIN\C++CLI_NFW48_and_NET5_Mix_Test.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>E:\C++CLI_NFW48_and_NET5_Mix_Test\BIN\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

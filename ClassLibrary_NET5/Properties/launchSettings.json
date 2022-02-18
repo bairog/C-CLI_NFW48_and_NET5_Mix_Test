@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ClassLibrary_NET5": {
+      "commandName": "Executable",
+      "executablePath": "E:\\C++CLI_NFW48_and_NET5_Mix_Test\\BIN\\C++CLI_NFW48_and_NET5_Mix_Test.exe",
+      "workingDirectory": "E:\\C++CLI_NFW48_and_NET5_Mix_Test\\BIN\\"
+    }
+  }
+}
