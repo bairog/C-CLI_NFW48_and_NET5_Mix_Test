@@ -32,10 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Crosscutting_C++CLI_NFW48, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\BIN\Crosscutting_C++CLI_NFW48.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +44,12 @@
   <ItemGroup>
     <Compile Include="Class48.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Crosscutting_C++CLI_NFW48\Crosscutting_C++CLI_NFW48.vcxproj">
+      <Project>{47cf0511-c455-40bc-a5b9-5626c99a4347}</Project>
+      <Name>Crosscutting_C++CLI_NFW48</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,9 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Crosscutting_C++CLI_NFW48">
-      <HintPath>..\BIN\Crosscutting_C++CLI_NFW48.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Crosscutting_C++CLI_NFW48\Crosscutting_C++CLI_NFW48.vcxproj" />
   </ItemGroup>
 
 </Project>

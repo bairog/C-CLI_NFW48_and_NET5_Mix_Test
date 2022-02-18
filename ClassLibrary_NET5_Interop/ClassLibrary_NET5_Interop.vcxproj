@@ -134,6 +134,11 @@
       <HintPath>..\BIN\ClassLibrary_NET5.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary_NET5\ClassLibrary_NET5.csproj">
+      <Project>{f2bdfd89-9177-426d-9e3a-aa5c6817f93c}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
